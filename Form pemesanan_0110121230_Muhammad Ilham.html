@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Praktikum Pemweb</title>
+  </head>
+  <body>
+    <h1 style="text-align : center;">FORM PEMESANAN</h1>
+    <h4 style="text-align : center;">Pizza delivery</h4>
+    <br>
+    <br>
+    <h3>Costumer name</h3>
+    <form action="" method="POST">
+     <div syle="margin-left : 1px;">
+      <table>
+        <tr>
+          <td>Name :</td>
+          <td><input type="text" size="30"></td>
+        </tr>
+        <tr>
+          <td>Address :</td>
+          <td><input type="text" size="30"></td>
+        </tr>
+        <tr>
+          <td>No.Hp :</td>
+          <td><input type="number" size="30"></td>
+        </tr>
+        <tr>
+          <td>E-mail :</td>
+          <td><input type="text" size="30"></td>
+        </tr>
+        <tr>
+          <td>Delivery Introductions :</td>
+          <td><textarea cols="32" rows="5"></textarea></td>
+        </tr>
+      </table>
+     </div>
+      <h3>Your Order</h3>
+      <div style="margin-left : 1px;">
+      <table>
+        <tr>
+          <td><input type="radio" name="cs">Classic white
+        </tr>
+        <tr>
+          <td><input type="radio" name="cs">Multigrain
+        </tr>
+        <tr>
+          <td><input type="radio" name="cs">Cheese-Stuffed crust
+        </tr>
+        <tr>
+          <td><input type="radio" name="cs">Gluten free
+        </tr>
+      </table>
+      </div>
+      <br>
+      <h4>Toppings</h4>
+      <div style="margin-left : 1px;">
+      <table>
+        <tr>
+          <td><input type="checkbox">Red sauce
+        </tr>
+        <tr>
+          <td><input type="checkbox">White sauce
+        </tr>
+        <tr>
+          <td><input type="checkbox">Mozzarella
+        </tr>
+        <tr>
+          <td><input type="checkbox">Pepperoni
+        </tr>
+        <tr>
+          <td><input type="checkbox">Mushrooms
+        </tr>
+        <tr>
+          <td><input type="checkbox">Peppers
+        </tr>
+        <tr>
+          <td><input type="checkbox">Anchovies
+        </tr>
+      </table>
+      </div>
+      <br>
+      <p>how many boxes to order :
+      <br>
+      <input list="orders" name="orders">
+      <datalist id="orders">
+        <option value="1 box">
+        <option value="2 box">
+        <option value="3 box">
+        <option value="4 box">
+        <option value="5 box">
+      </datalist>
+      <input type="submit">
+    </form>
+    <h6>Thank you for ordering :)</h6>
+    <br>
+  </body>
+</html>
