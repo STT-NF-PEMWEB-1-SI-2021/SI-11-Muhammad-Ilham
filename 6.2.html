@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Tugas Pemweb 5.3</title>
+    <style>
+.container{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1.5fr 5fr 1.5fr;
+  grid-template-rows: 0.05fr 0.2fr 0.05fr;
+  grid-template-areas: 
+  "nav header header"
+  "nav article aside"
+  "nav footer footer";
+}
+nav{
+  background: pink;
+  grid-area: nav;
+
+}
+header{
+  background: khaki;
+  grid-area: header;
+}
+article{
+  background: white;
+  grid-area: article;
+}
+aside{
+  background: #03DAC5;
+  grid-area: aside;
+}
+footer{
+  background: khaki;
+  grid-area: footer;
+}
+    </style>
+  <body>
+    <div class="container">
+      <nav>Nav</nav>
+      <header>Header</header>
+      <article>Article</article>
+      <aside>Aside</aside>
+      <footer>Footer</footer>
+    </div>
+  </body>
